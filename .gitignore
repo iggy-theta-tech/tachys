@@ -14,3 +14,6 @@ Thumbs.db
 
 # Data
 data/
+
+# Worktrees
+.claude/worktrees/
