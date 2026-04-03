@@ -1,0 +1,23 @@
+---
+Checks: >
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  modernize-*,
+  performance-*,
+  bugprone-*,
+  -modernize-use-trailing-return-type,
+  -modernize-use-nodiscard
+
+WarningsAsErrors: ''
+
+CheckOptions:
+  - key:   readability-identifier-naming.ClassCase
+    value: CamelCase
+  - key:   readability-identifier-naming.FunctionCase
+    value: camelCase
+  - key:   readability-identifier-naming.VariableCase
+    value: camelCase
+  - key:   readability-identifier-naming.MemberSuffix
+    value: '_'
+  - key:   readability-identifier-naming.ConstantCase
+    value: UPPER_CASE

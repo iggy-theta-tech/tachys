@@ -1,0 +1,16 @@
+---
+Language:        Cpp
+BasedOnStyle:    LLVM
+ColumnLimit:     100
+IndentWidth:     4
+TabWidth:        4
+UseTab:          Never
+AccessModifierOffset: -4
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+AllowShortFunctionsOnASingleLine: Inline
+SortIncludes:    CaseSensitive
+IncludeBlocks:   Regroup
+SpacesBeforeTrailingComments: 2
+Standard:        c++23
