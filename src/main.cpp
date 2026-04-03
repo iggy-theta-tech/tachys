@@ -1,9 +1,12 @@
 // src/main.cpp
+#include <fmt/core.h>
 #include <format>
-#include <cstdio>
 
 int main() {
-    // std::format is C++20 -- proves C++23 mode active
-    std::puts(std::format("TACHYS v0.1.0 -- C++23 OK").c_str());
+    fmt::print("TACHYS v0.1.0 -- C++23 OK\n");
+    fmt::print("fmt {}.{}.{}\n",
+        FMT_VERSION / 10000,
+        (FMT_VERSION % 10000) / 100,
+        FMT_VERSION % 100);
     return 0;
 }
