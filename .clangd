@@ -1,0 +1,7 @@
+CompileFlags:
+  CompilationDatabase: build/debug
+
+Diagnostics:
+  ClangTidy:
+    Add: [modernize-*, performance-*, bugprone-*]
+    Remove: [modernize-use-trailing-return-type]
